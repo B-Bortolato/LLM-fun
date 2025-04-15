@@ -68,7 +68,7 @@ python classification.py
 Start the chatbot interface:
 ```bash
 conda activate env
-streamlit run frontend.py
+streamlit run main.py
 ```
 
 ---
