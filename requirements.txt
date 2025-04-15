@@ -1,0 +1,10 @@
+openai
+faiss-cpu
+streamlit
+scikit-learn
+umap-learn
+numpy
+scipy
+pandas
+matplotlib
+
