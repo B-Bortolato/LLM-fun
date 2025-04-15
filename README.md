@@ -90,6 +90,11 @@ streamlit run main.py
 - `streamlit`
 - `scikit-learn`
 - `umap-learn`
+- `numpy`
+- `scipy`
+- `pandas`
+- `matplotlib`
+
 
 # Evaluation of Support Analytics Chatbot
 
@@ -173,7 +178,3 @@ There may also be value in classifying entire dialogues.
 If categories are defined by summarizing the content of clusters, the primary challenge lies in clearly naming each cluster so that it’s evident which messages belong to which category, assuming the clustering process is well-executed.
 
 Performance can also be evaluated also visually by inspecting the clusters and manually reviewing ambiguous messages. A more effective approach might be to leverage GPT to verify which label fits best, or to use other validation techniques to ensure the accuracy of the classification/clustering.
-- `numpy`
-- `scipy`
-- `pandas`
-- `matplotlib`
