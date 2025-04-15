@@ -1,5 +1,5 @@
 
-# 🤖 Support Analytics Chatbot
+# 🤖 QueryParser
 
 A powerful Streamlit-based chatbot that leverages OpenAI’s language models to interpret and answer analytical questions about support messages from platforms like LiveChat and Telegram. It understands natural language queries, extracts filters (e.g., time range, source, category), and returns relevant statistics or insights based on real message data.
 
@@ -96,7 +96,7 @@ streamlit run main.py
 - `matplotlib`
 
 
-# Evaluation of Support Analytics Chatbot
+# Evaluation of QueryParser
 
 ---
 
