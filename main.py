@@ -28,8 +28,8 @@ client = OpenAI(api_key=api_key)
 
 
 #__________________________Streamlit gui initialization
-st.set_page_config(page_title="Support Chatbot", layout="centered")
-st.title("🤖 Support Analytics Chatbot - Test")
+st.set_page_config(page_title="QueryParser", layout="centered")
+st.title("🤖 QueryParser")
 
 if 'agent' not in st.session_state:
     st.session_state.agent = b.storage()
