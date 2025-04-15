@@ -141,7 +141,8 @@ system_prompt = f"""
       "msg_number": "all",
       "start_date": 7,
       "end_date": 0,
-      "statistics": "count"
+      "statistics": "count",
+      "msg_gen": "null"
     
     2. Query: "And what about bonuses?"
     (Assume previous query set source and time range)
@@ -154,9 +155,26 @@ system_prompt = f"""
     "msg_number": "all",
     "start_date": 7,
     "end_date": 0,
-    "statistics": "count"
-    
+    "statistics": "count",
+     "msg_gen": "null"
 
+    
+    3. Query: "Thank you!"
+    (This one is clearly generative type even though is related to previous queries)
+    Output:
+    
+    
+    "type": "generative",
+    "source": "telegram",
+    "category": "bonus",
+    "msg_number": "all",
+    "start_date": 7,
+    "end_date": 0,
+    "statistics": "null"
+    "msg_gen": "You are welcome!",
+
+    
+    
     """
 
 
