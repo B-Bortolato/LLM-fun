@@ -329,6 +329,16 @@ except Exception as e:
 
 
 
+plt.figure(figsize = (8,5))
+plt.scatter(emb[:,0], emb[:,1], s = 5, c = 'black')
+for j in range(labels.max()):
+    c = labels == j
+    plt.scatter(emb[c,0], emb[c,1], s = 5, c = colors[j], label = cluster_name_dict[str(j)])
+plt.title('Clusters in 2D')
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+plt.tight_layout()
+plt.show()
+
 
 
 #__________________FAISS: Not used; not needed for this example
